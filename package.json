@@ -1,0 +1,29 @@
+{
+  "name": "mongo-purge",
+  "version": "1.0.0",
+  "description": "A small utility for purging documents from a MongoDB collection",
+  "main": "index.js",
+  "bin": {
+    "mongo-purge": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "James Sumners <james.sumners@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "bluebird-co": "^2.2.0",
+    "commander": "^2.9.0",
+    "js-joda": "^1.1.14",
+    "mongodb": "^2.2.11",
+    "pino": "^3.0.1",
+    "require-self-ref": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}
